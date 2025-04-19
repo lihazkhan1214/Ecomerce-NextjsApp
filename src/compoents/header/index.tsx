@@ -18,7 +18,7 @@ import {
 import * as React from "react";
 import { inherits } from "util";
 import CustomLink from "../custom-link/customLink";
-import { Menu } from "@mui/icons-material";
+import { Menu, MenuOpen } from "@mui/icons-material";
 import Image from "next/image";
 import Logo from "./logo";
 
@@ -88,7 +88,7 @@ export default function Header(props: Props) {
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: "none" } }}
           >
-            <MenuIcon />
+            <MenuOpen />
           </IconButton>
 
           <Box sx={{ display: { xs: "none", md: "block" } }}>
