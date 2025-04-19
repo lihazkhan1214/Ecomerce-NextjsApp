@@ -38,7 +38,7 @@ export async function POST(req: Request) {
     );
   } catch (error) {
     return NextResponse.json(
-      { error: "Failed to connect to the database." },
+      { error: "Interval Server error." },
       { status: 500 }
     );
   }
