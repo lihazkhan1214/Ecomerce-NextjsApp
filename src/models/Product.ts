@@ -39,7 +39,7 @@ const productSchema = new Schema<Iproduct>(
     ],
     category: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "Category",
+      ref: "Category", // Model name remains capitalized
       required: true,
     },
   },

@@ -13,6 +13,7 @@ export const COLORS = {
   text: {
     primary: "#1A1D3A", // Navbar text, button text
     secondary: "#EAE6E6", // General text
+    white: "#FFFFFF",
   },
   custom: {
     heroTitle: "#FFFFFF",

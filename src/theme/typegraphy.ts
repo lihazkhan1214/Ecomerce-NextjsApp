@@ -26,8 +26,12 @@ declare module "@mui/material/styles" {
     navLink?: React.CSSProperties;
     heroTitle?: React.CSSProperties;
     heroText?: React.CSSProperties;
+    mobileHeroText?: React.CSSProperties;
+    mobileHeroTitle?: React.CSSProperties;
     heroSubText?: React.CSSProperties;
+    mobileHeroSubText?: React.CSSProperties;
     heroButton?: React.CSSProperties;
+    mobileHeroButton?: React.CSSProperties;
     iconTitle?: React.CSSProperties;
     sectionText?: React.CSSProperties;
     sectionTitle?: React.CSSProperties;
@@ -48,6 +52,10 @@ declare module "@mui/material/Typography" {
     navLink: true;
     heroTitle: true;
     heroText: true;
+    mobileHeroSubText: true;
+    mobileHeroButton: true;
+    mobileHeroTitle: true;
+    mobileHeroText: true;
     heroSubText: true;
     heroButton: true;
     iconTitle: true;
@@ -75,18 +83,36 @@ export const customTypography: TypographyVariantsOptions = {
   },
   // ===== HERO =====
   heroTitle: {
-    fontSize: "150px",
+    fontSize: "150x",
+    fontWeight: 900,
+  },
+  mobileHeroTitle: {
+    fontSize: "50x",
     fontWeight: 900,
   },
   heroText: {
     fontSize: "32px",
     fontWeight: 400,
+    lineHeight: 1.5,
+  },
+  mobileHeroText: {
+    fontSize: "16px",
+    fontWeight: 400,
+    lineHeight: 1.5,
   },
   heroSubText: {
     fontSize: "24px",
     fontWeight: 400,
   },
+  mobileHeroSubText: {
+    fontSize: "24px",
+    fontWeight: 400,
+  },
   heroButton: {
+    fontSize: "32px",
+    fontWeight: 500,
+  },
+  mobileHeroButton: {
     fontSize: "32px",
     fontWeight: 500,
   },
