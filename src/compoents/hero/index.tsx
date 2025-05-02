@@ -57,7 +57,7 @@ function Hero() {
           sx={{
             fontSize: { xs: 16, sm: 24 },
           }}
-          color={theme.palette.text.secondary}
+          color={theme.palette.custom.special.white}
         >
           Elevate your Grooming with Kami Industries Premium Tweezers.
         </Typography>
@@ -67,17 +67,17 @@ function Hero() {
           sx={{
             fontSize: { xs: "50", sm: "150px" },
           }}
-          color={theme.palette.text.secondary}
+          color={theme.palette.custom.special.white}
         >
           Tweezers and Mirrors
         </Typography>
 
         <Typography
           variant="heroText"
-          color={theme.palette.text.secondary}
+          color={theme.palette.custom.special.white}
           sx={{
             maxWidth: { md: 630 },
-            textShadow: "0 2px 4px rgba(0,0,0,0.3)",
+
             fontWeight: 500,
             fontSize: { xs: 16, md: 32 },
           }}

@@ -9,7 +9,7 @@ declare module "@mui/material/styles" {
     heroSubText: React.CSSProperties;
     heroButton: React.CSSProperties;
     iconTitle: React.CSSProperties;
-    sectionText: React.CSSProperties;
+    sectionStyleText: React.CSSProperties;
     sectionTitle: React.CSSProperties;
     sectionDesc: React.CSSProperties;
     sectionButton: React.CSSProperties;
@@ -33,7 +33,7 @@ declare module "@mui/material/styles" {
     heroButton?: React.CSSProperties;
     mobileHeroButton?: React.CSSProperties;
     iconTitle?: React.CSSProperties;
-    sectionText?: React.CSSProperties;
+    sectionStyleText?: React.CSSProperties;
     sectionTitle?: React.CSSProperties;
     sectionDesc?: React.CSSProperties;
     sectionButton?: React.CSSProperties;
@@ -59,7 +59,7 @@ declare module "@mui/material/Typography" {
     heroSubText: true;
     heroButton: true;
     iconTitle: true;
-    sectionText: true;
+    sectionStyleText: true;
     sectionTitle: true;
     sectionDesc: true;
     sectionButton: true;
@@ -95,40 +95,30 @@ export const customTypography: TypographyVariantsOptions = {
     fontWeight: 400,
     lineHeight: 1.5,
   },
-  mobileHeroText: {
-    fontSize: "16px",
-    fontWeight: 400,
-    lineHeight: 1.5,
-  },
+
   heroSubText: {
     fontSize: "24px",
     fontWeight: 400,
   },
-  mobileHeroSubText: {
-    fontSize: "24px",
-    fontWeight: 400,
-  },
+
   heroButton: {
     fontSize: "32px",
     fontWeight: 500,
   },
-  mobileHeroButton: {
-    fontSize: "32px",
-    fontWeight: 500,
-  },
+
   // ===== ICON TITLE =====
   iconTitle: {
     fontSize: "20px",
     fontWeight: 700,
   },
   // ===== SECTIONS =====
-  sectionText: {
+  sectionStyleText: {
     fontSize: "24px",
     fontWeight: 400,
   },
   sectionTitle: {
     fontSize: "48px",
-    fontWeight: 800,
+    fontWeight: 600,
   },
   sectionDesc: {
     fontSize: "20px",
